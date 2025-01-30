@@ -1,0 +1,151 @@
+.me {
+    font-size: 50px;
+    text-shadow: 0px 1px 20px;
+    color: red;
+
+}
+
+* {}
+
+.title {
+    font-size: 50px;
+    text-shadow: 0px 1px 20px;
+    color: red;
+
+
+}
+
+.about-img {
+    width: 20%;
+    height: 38%;
+    border-radius: 20px;
+    justify-content: right;
+    display: flex;
+    position: fixed;
+    left: 80%;
+    top: 5%;
+
+
+}
+
+body {
+    font-family: "Rubik Mono One", serif;
+    
+}
+
+.svzts {
+    font-size: 45px;
+}
+
+.mkz li:hover {
+    color: red;
+    transition: 0.9s;
+}
+
+.mkz li {
+    font-size: 20px;
+
+}
+
+.treezy {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: fantasy;
+    position: static;
+
+}
+
+.treezy:hover {
+    color: red;
+    transition: 1s;
+}
+
+@media(max-width:1000px) {
+    .me {
+        font-size: 35px;
+
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .svzts {
+        font-size: 18px;
+    }
+
+    .about-me-text {
+        font-size: 15px;
+    }
+
+    .myhstr-text {
+        font-size: 15px;
+    }
+
+    .mkz li {
+        font-size: 15px;
+    }
+    .about-img{
+        display: none;
+    }
+
+}
+
+@media(max-width:500px) {
+    .me {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 10px;
+    }
+
+    .svzts {
+        font-size: 10px;
+    }
+
+    .about-me-text {
+        font-size: 10px;
+    }
+
+    .myhstr-text {
+        font-size: 10px;
+    }
+
+    .mkz li {
+        font-size: 10px;
+    }
+    .about-img{
+        display: none;
+    }
+}
+
+.hdr {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    
+    
+}
+
+.me a {
+    text-decoration: none;
+    color: red;
+
+}
+
+.me a:hover {
+    color: black;
+    transition: 0.9s;
+}
+
+.about-me-text {
+    font-size: 15px;
+    font-family: "Rubik Mono One", serif;
+}
+
+.myhstr-text {
+    font-size: 15px;
+    font-family: "Rubik Mono One", serif;
+}
